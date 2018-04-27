@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: url(/img/image008.jpg) no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 4% 0;
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+}
+body:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media only screen and (max-width: 40em) { 
+  body{
+    background: url(/img/image008.jpg) no-repeat center top;
+  }
+  
+}

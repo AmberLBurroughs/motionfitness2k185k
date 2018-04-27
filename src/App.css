@@ -1,0 +1,139 @@
+.App {
+  text-transform: uppercase;
+  color: #656565;
+}
+.container {
+  max-width: 100%;
+}
+.wrap {
+  width: 85%;
+  min-height: 500px;
+  margin: 0 auto;
+}
+.header {
+  max-width: 100%;
+}
+.content {
+  margin-top: 0;
+  background-color: rgba(255,255,255,.8); 
+  padding: 0 4% 4%;
+}
+h3 {
+  margin-top: 0;
+  color: #9DCC4F;
+  font-size: 2em;
+}
+a {
+  text-decoration: underline;
+  font-weight: 300;
+  color:#656565;
+}
+a:hover {
+  color: #9DCC4F;
+}
+p, label {
+  font-weight: 300;
+}
+.containers {
+  border-bottom: 2px solid #F28EAE;
+  padding-bottom: 2%;
+}
+#Tooltip {
+  background: red;
+}
+.btn, button {
+  background-color: transparent;
+  color: #656565;
+  border: 1px solid #656565;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding: 10px;
+  margin-bottom: 20px;
+
+}
+.btn:hover,
+.btn:focus,
+.btn:active,
+button:hover,
+button:focus,
+button:active {
+   border: 1px solid #9DCC4F;
+   color: #9DCC4F;
+   outline: none;
+   background-color: transparent;
+}
+.accordion {
+  border: none;
+  width: 50%;
+}
+.accordion__title {
+  background-color: transparent; 
+  color: #656565; 
+  font-weight: 300;
+  padding: 0; 
+  width: 100%; 
+  text-decoration: underline;
+}
+.accordion__title:hover, 
+.accordion__title:focus {
+    background-color: transparent;
+    color: #9DCC4F;
+    outline: none;
+}
+.accordion__title:active,
+.accordion__title:focus {
+  background-color: transparent;
+  color: #656565;
+  outline: none;
+}
+.accordion__body {
+  padding: 20px 0;
+}
+.icon-wrap{
+  padding-top: 2%;
+}
+.icon-wrap img {
+  max-width: 100%;
+  width: 175px;
+  max-height: 40px;
+  margin-bottom: 10%;
+}
+.logo {
+  text-align: center;
+}
+.error {
+  border-color: #ee2e24;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(238,46,36,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(238,46,36,.6);
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+   .wrap {
+      width: 90%;
+      text-align: center;
+    }
+    .accordion {
+      width: 100%;
+    }
+    .accordion__title {
+      text-align: center;
+    }
+    .btn, button {
+      width: 100%;
+    }
+  } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+@media only screen and (max-width: 40em) { 
+  .wrap {
+    width: 95%;
+    text-align: center;
+  }
+  .accordion {
+    width: 100%;
+  }
+  .accordion__title {
+    text-align: center;
+  }
+  .btn, button {
+    width: 100%;
+  }
+} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
