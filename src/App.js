@@ -108,7 +108,8 @@ class App extends Component {
     return (
       <div className="App">
        <div className="wrap">
-        <img className="header" src="/img/HeaderImage2.png" alt="running"/>
+        <img className="header lg" src="/img/HeaderImage2.png" alt="running"/>
+         <img className="header sm" src="/img/HeaderImagesm1.png" alt="running"/>
         <div className="content">
           <div className="containers">
             <h3>06.02.2018</h3>

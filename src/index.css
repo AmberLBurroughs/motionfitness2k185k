@@ -18,7 +18,7 @@ body:after {
 
 @media only screen and (max-width: 40em) { 
   body{
-    background: url(/img/image008.jpg) no-repeat center top;
+    background: url(/img/image008.jpg) no-repeat top top;
     font-size: 18px;
     padding: 7% 0;
   }

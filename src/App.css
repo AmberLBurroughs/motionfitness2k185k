@@ -14,6 +14,12 @@
 .header {
   max-width: 100%;
 }
+.lg {
+  display: block;
+}
+.sm {
+  display: none;
+}
 .content {
   margin-top: 0;
   background-color: rgba(255,255,255,.8); 
@@ -124,6 +130,9 @@ button:active {
   color: #F28EAE;
 }
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+    h4 {
+      margin-top: 10%;
+    }
    .wrap {
       width: 90%;
       text-align: center;
@@ -155,9 +164,18 @@ button:active {
     }
   } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 @media only screen and (max-width: 40em) { 
+  h4 {
+    margin-top: 10%;
+  }
   .wrap {
     width: 96%;
     text-align: center;
+  }
+  .lg {
+    display: none;
+  }
+  .sm {
+    display: block;
   }
   .span {
     display: none;
