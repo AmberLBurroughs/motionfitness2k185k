@@ -6,7 +6,9 @@ body {
   min-height: 100vh;
   padding: 4% 0;
   font-size: 20px;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
 }
 body:after {
   content: "";
@@ -17,6 +19,8 @@ body:after {
 @media only screen and (max-width: 40em) { 
   body{
     background: url(/img/image008.jpg) no-repeat center top;
+    font-size: 18px;
+    padding: 7% 0;
   }
   
 }

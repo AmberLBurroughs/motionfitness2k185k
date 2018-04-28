@@ -113,19 +113,16 @@ class App extends Component {
           <div className="containers">
             <h3>06.02.2018</h3>
 
-            <p>motion fitness group</p>
-            <p>registr by 06.15.18</p>
+            <p>register by 05.12.18</p>
             <p>$28 per participant</p>
             <Tooltip content='Please register under the Team Registration, 5k Teams 10+ Members and join our team "Motion Fitness".  Please contact Amber or Michael with any concerns. Looking forward to seeing you there. Thank you!' styles={stylez}>
             <p>register at <a href="https://endurancecui.active.com/new/events/51876652/select-race?regnow=awe-regnow&_p=28233513169457325"> www.endurancecui.active.com</a>
             </p>
             </Tooltip>
-            <p>limited edition team shirts</p>
-            <p>limited edition gold sheep leggings</p>
             <Accordion>
               <AccordionItem>
                 <AccordionItemTitle>
-                  <span>get your free team shirt</span> <div className="accordion__arrows" role="presentation"></div>
+                  <p>Motio fitnness team shirts</p> <div className="accordion__arrows" role="presentation"></div>
                 </AccordionItemTitle>
                 <AccordionItemBody>
                     <form>
@@ -189,29 +186,46 @@ class App extends Component {
                 </AccordionItemBody>
               </AccordionItem>
             </Accordion>
+            <div className="details">
+              <h4>Conntact your motion fitness enthusiasts with ay questionns</h4>
+              <p>
+                <span className="group">
+                <a href="http://ambermcdonough.com">amber mcdonnough</a>&nbsp;
+                <a className="phone" href="tel:19495007510"> 949.500.7510</a>
+                </span>
+       
+                <span className="span">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                  
+                <span className="group">
+                <a href="http://michaeltsamoudakis.com">Michael Tsamoudakis</a>
+                  &nbsp;
+                <a className="phone" href="tel:17144013037"> 714.401.3037</a>
+                </span>
+              </p>
+            </div>
           </div>
-          <div class="icon-wrap">
+          <div className="icon-wrap">
             <Grid>
             <Row>
-              <Col xs="12" sm="12" md="4" lg="4" className="logo">
-                <a href="https://smithgroupfilms.com/"><img src="img/SGLogoo.png" alt=""/></a>
+              <Col xs={12} sm={12} md={4} lg={4} className="logo">
+               <img src="img/unnamed.png" alt=""/>
               </Col>
-              <Col xs="12" sm="12" md="4" lg="4" className="logo">
-                <a href="http://www.coldwellbankerprestigerealty.com/our-services/"><img src="img/CBLogo.png" alt=""/></a>
+              <Col xs={6} sm={6} md={4} lg={4} className="logo">
+                <img src="img/CBLogo.png" alt=""/>
               </Col>
-              <Col xs="12" sm="12" md="4" lg="4" className="logo">
+              <Col xs={6} sm={6} md={4} lg={4} className="logo">
                 <img src="img/SGLogoo.png" alt=""/>
               </Col>
             </Row>
             <Row>
-              <Col xs="12" sm="12" md="4" lg="4" className="logo">
+              <Col xs={6} sm={6} md={4} lg={4} className="logo">
                 <img src="img/Blueray-Logo.png" alt=""/>
               </Col>
-              <Col xs="12" sm="12" md="4" lg="4" className="logo">
-                <a href="https://www.thegainzbox.com/"><img src="img/GBLogo.png" alt=""/></a>
+              <Col xs={6} sm={6} md={4} lg={4} className="logo">
+                <img src="img/GBLogo.png" alt=""/>
               </Col>
-              <Col xs="12" sm="12" md="4" lg="4" className="logo">
-                <a href="http://motionfitnessgroup.com/"><img src="img/motion-logo.png" alt=""/></a>
+              <Col xs={12} sm={12} md={4} lg={4} className="logo">
+                <img src="img/motion-logo.png" alt=""/>
               </Col>
             </Row>
             </Grid>
