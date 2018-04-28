@@ -123,7 +123,7 @@ class App extends Component {
             <Accordion>
               <AccordionItem>
                 <AccordionItemTitle>
-                  <p>Motio fitnness team shirts</p> <div className="accordion__arrows" role="presentation"></div>
+                  <p>Motion fitness team shirts</p> <div className="accordion__arrows" role="presentation"></div>
                 </AccordionItemTitle>
                 <AccordionItemBody>
                     <form>
