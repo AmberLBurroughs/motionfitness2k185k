@@ -212,10 +212,10 @@ class App extends Component {
                <img src="img/unnamed.png" alt=""/>
               </Col>
               <Col xs={6} sm={6} md={4} lg={4} className="logo">
-                <img src="img/CBLogo.png" alt=""/>
+                <img src="img/SGLogoo.png" alt=""/>
               </Col>
               <Col xs={6} sm={6} md={4} lg={4} className="logo">
-                <img src="img/SGLogoo.png" alt=""/>
+                <img src="img/CBLogo.png" alt=""/>
               </Col>
             </Row>
             <Row>
