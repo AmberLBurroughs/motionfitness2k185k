@@ -120,6 +120,7 @@ class App extends Component {
             <p>register at <a href="https://endurancecui.active.com/new/events/51876652/select-race?regnow=awe-regnow&_p=28233513169457325"> www.endurancecui.active.com</a>
             </p>
             </Tooltip>
+            <Tooltip content="Don’t forget to let us know your shirt size" styles={stylez}>
             <Accordion>
               <AccordionItem>
                 <AccordionItemTitle>
@@ -187,8 +188,9 @@ class App extends Component {
                 </AccordionItemBody>
               </AccordionItem>
             </Accordion>
+             </Tooltip>
             <div className="details">
-              <h4>Conntact your motion fitness enthusiasts with ay questionns</h4>
+              <h4>Conntact your motion fitness enthusiasts with any questions</h4>
               <p>
                 <span className="group">
                 <a href="http://ambermcdonough.com">amber mcdonnough</a>&nbsp;
