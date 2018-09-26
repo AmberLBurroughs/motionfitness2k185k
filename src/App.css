@@ -75,9 +75,12 @@ button:active {
    outline: none;
    background-color: transparent;
 }
+.tt {
+  display: block;
+}
 .accordion {
   border: none;
-  width: 50%;
+  width: 100%;
 }
 .accordion__title {
   background-color: transparent; 
